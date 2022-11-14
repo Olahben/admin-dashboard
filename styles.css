@@ -2,4 +2,20 @@
     display: grid;
     grid-template-columns: 15vw 85vw;
     grid-template-rows: 15vh 85vh;
+
+    grid-template-areas: 
+    "sidebar header"
+    "sidebar content";
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#header {
+    grid-area: header;
+}
+
+#content {
+    grid-area: content;
 }
