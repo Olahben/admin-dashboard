@@ -8,6 +8,11 @@
     "sidebar content";
 }
 
+@font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-family: 'Custom';
+}
+
 #sidebar {
     grid-area: sidebar;
 }
@@ -23,3 +28,8 @@
 #sidebar {
     background-color: #06b6d4;
 }
+
+/*.dashboard > p {
+        font-size: 28px;
+        color: white;
+        font-weight: 700;
