@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 #dashboard {
     display: grid;
     grid-template-columns: 15vw 85vw;
@@ -9,9 +11,13 @@
 }
 
 @font-face {
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-    font-family: 'Custom';
-}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
 
 #sidebar {
     grid-area: sidebar;
@@ -29,7 +35,9 @@
     background-color: #06b6d4;
 }
 
-/*.dashboard > p {
+.dashboard > p {
         font-size: 28px;
         color: white;
         font-weight: 700;
+        font-family: 'Roboto';
+}
