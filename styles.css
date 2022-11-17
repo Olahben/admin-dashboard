@@ -63,7 +63,10 @@
     justify-content: center;
 }
 
-.personal {
+.personal > p {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    color: white;
     
 }
 
