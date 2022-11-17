@@ -33,6 +33,10 @@
 
 #sidebar {
     background-color: #06b6d4;
+    display: grid;
+    grid-template-rows: 10vh 30vh 40vh;
+    grid-template-columns: 100%;
+    gap: 30px;
 }
 
 .dashboard > p {
@@ -43,7 +47,9 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-right: 80px;
+    margin: 0px;
+    margin-right: 2vw;
+   
 }
 
 .dashboard > p > img {
@@ -55,5 +61,13 @@
 .dashboard {
     display: flex;
     justify-content: center;
+}
+
+.personal {
+    
+}
+
+.settings {
+    
 }
 
