@@ -122,7 +122,26 @@ body {
 .profile {
     display: flex;
     align-items: center;
-    gap: 60px;
     justify-content: center;
+    gap: 10px;
+}
+
+.profile-name {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+}
+
+.profile img {
+    width: 2vw;
+
+}
+
+.profile img:nth-child(1) {
+    margin-right: 40px;
+}
+
+.profile img:nth-child(2) {
+    height: 50px;
 }
 
