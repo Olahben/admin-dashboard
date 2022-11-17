@@ -39,10 +39,21 @@
     font-size: 30px;
     color: white;
     font-family: 'Roboto';
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 80px;
 }
 
 .dashboard > p > img {
     width: 36px;
     height: 36px;
+    align-self: center;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
 }
 
