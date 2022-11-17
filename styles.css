@@ -103,3 +103,19 @@ body {
     padding-left: 2vw;
 }
 
+.search {
+    width: 75%;
+    height: 30px;
+    display: flex;
+    
+}
+
+.search input {
+    width: 100%;
+    border-radius: 8px;
+    border: 0px solid;
+    background-color: #eeeded;
+    align-self: center;
+    height: 80%;
+}
+
