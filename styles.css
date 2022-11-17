@@ -90,3 +90,9 @@ body {
     margin-left: 1vw;
 }
 
+#header {
+    background-color: #27272a;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
