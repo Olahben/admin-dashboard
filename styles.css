@@ -96,3 +96,10 @@ body {
     grid-template-columns: 4fr 2fr;
 }
 
+.search-bar {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 2vw;
+}
+
