@@ -72,7 +72,12 @@
     margin-left: 1vw;
 }
 
-.settings {
-    
+.settings > p {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    color: white;
+    display: flex;
+    gap: 0.7vw;
+    margin-left: 1vw;
 }
 
