@@ -152,3 +152,17 @@ body {
     gap: 15px;
 }
 
+.welcome-text {
+    color: white;
+    font-family: 'Roboto';
+}
+
+.welcome-name {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+
+
