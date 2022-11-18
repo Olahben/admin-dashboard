@@ -145,3 +145,10 @@ body {
     height: 50px;
 }
 
+.welcome {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    gap: 15px;
+}
+
