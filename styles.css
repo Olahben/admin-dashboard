@@ -169,7 +169,10 @@ body {
     background-color: #1992d4;
     border: 0px solid white;
     border-radius: 8px;
-    height: 40px;
+    height: 30px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 0.8em;
 }
 
 
