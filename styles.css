@@ -164,5 +164,13 @@ body {
     margin: 0px;
 }
 
+.media > button {
+    width: 90px;
+    background-color: #1992d4;
+    border: 0px solid white;
+    border-radius: 8px;
+    height: 40px;
+}
+
 
 
