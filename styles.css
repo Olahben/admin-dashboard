@@ -183,7 +183,11 @@ body {
 
 #content {
     display: grid;
-    grid-template-columns: 33vw 33vw;
+    grid-template-columns: 65vw;
+
+}
+
+.projects {
 
 }
 
