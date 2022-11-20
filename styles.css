@@ -181,5 +181,11 @@ body {
     gap: 40px;
 }
 
+#content {
+    display: grid;
+    grid-template-columns: 33vw 33vw;
+
+}
+
 
 
