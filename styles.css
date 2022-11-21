@@ -216,3 +216,10 @@ body {
     font-family: 'Roboto';
     font-size: 1.2em;
 }
+
+.projects-header, .announcements-header {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
