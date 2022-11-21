@@ -230,3 +230,14 @@ body {
     padding-left: 10px;
 }
 
+.card {
+    color: white;
+    background-color: #27272a;
+    padding: 20px;
+}
+
+.card p {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
