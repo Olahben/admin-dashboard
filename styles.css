@@ -202,7 +202,7 @@ body {
     border: 1px solid blue;
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
-    grid-template-columns: 30vw 30vw;
+    grid-template-columns: 31vw 31vw;
 }
 
 .projects-header {
