@@ -193,16 +193,20 @@ body {
 
 .trending, .announcements {
     grid-area: updates;
+    border: 1px solid red;
 }
 
 .projects {
     grid-area: content;
+    border: 1px solid blue;
 }
 
 .projects-header {
     grid-area: your-projects;
+    border: 1px solid firebrick;
 }
 
 .announcements-header {
     grid-area: announcements;
+    border: 1px solid magenta;
 }
