@@ -188,6 +188,7 @@ body {
     grid-template-areas: 
     "your-projects announcements"
     "content updates";
+    background-color: #e2e8f0;
 
 }
 
