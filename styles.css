@@ -183,8 +183,8 @@ body {
 
 #content {
     display: grid;
-    grid-template-columns: 68vw 16.5vw;
-    grid-template-rows: 15vh 65vh;
+    grid-template-columns: 68vw 16.2vw;
+    grid-template-rows: 15vh 68.2vh;
     grid-template-areas: 
     "your-projects announcements"
     "content updates";
