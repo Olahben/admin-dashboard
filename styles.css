@@ -210,3 +210,7 @@ body {
     grid-area: announcements;
     border: 1px solid magenta;
 }
+
+.content-description {
+    margin: 0px;
+}
