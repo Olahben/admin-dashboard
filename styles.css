@@ -183,13 +183,26 @@ body {
 
 #content {
     display: grid;
-    grid-template-columns: 65vw;
+    grid-template-columns: 65vw 15vw;
+    grid-template-rows: 10vh 40vh;
+    grid-template-areas: 
+    "your-projects announcements"
+    "content updates";
 
+}
+
+.trending, .announcements {
+    grid-area: updates;
 }
 
 .projects {
-
+    grid-area: content;
 }
 
+.projects-header {
+    grid-area: your-projects;
+}
 
-
+.announcements-header {
+    grid-area: announcements;
+}
