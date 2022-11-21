@@ -200,6 +200,9 @@ body {
 .projects {
     grid-area: content;
     border: 1px solid blue;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: 30vw 30vw;
 }
 
 .projects-header {
@@ -224,3 +227,4 @@ body {
     padding-bottom: 10px;
     padding-left: 10px;
 }
+
