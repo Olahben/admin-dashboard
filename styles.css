@@ -234,10 +234,15 @@ body {
     color: white;
     background-color: #27272a;
     padding: 20px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 200;
 }
 
 .card p {
     margin: 0px;
     margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
