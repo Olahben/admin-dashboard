@@ -194,12 +194,12 @@ body {
 
 .trending, .announcements {
     grid-area: updates;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .projects {
     grid-area: content;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
     grid-template-columns: 31vw 31vw;
@@ -209,12 +209,12 @@ body {
 
 .projects-header {
     grid-area: your-projects;
-    border: 1px solid firebrick;
+    /*border: 1px solid firebrick;*/
 }
 
 .announcements-header {
     grid-area: announcements;
-    border: 1px solid magenta;
+    /*border: 1px solid magenta;*/
 }
 
 .content-description {
