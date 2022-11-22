@@ -192,7 +192,7 @@ body {
 
 }
 
-.trending, .announcements {
+#updates {
     grid-area: updates;
     /*border: 1px solid red;*/
 }
@@ -257,6 +257,11 @@ body {
     padding-right: 10px;
     justify-content: flex-end;
     gap: 18px;
+}
+
+.profiles, .announcements {
+    width: 80%;
+    height: 40%;
 }
 
 
