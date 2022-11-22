@@ -271,4 +271,17 @@ body {
     
 }
 
+.news{
+    font-size: 0.75em;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+
+.news p {
+    font-size: 1.2rem;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
 
