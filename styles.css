@@ -184,7 +184,7 @@ body {
 #content {
     display: grid;
     grid-template-columns: 68vw 16.2vw;
-    grid-template-rows: 15vh 68.2vh;
+    grid-template-rows: 1fr 7fr;
     grid-template-areas: 
     "your-projects announcements"
     "content updates";
@@ -240,6 +240,8 @@ body {
     font-family: 'Roboto';
     font-size: 13px;
     font-weight: 200;
+    border-radius: 8px;
+    border-left: 5px solid #1992d4;
 }
 
 .card p {
