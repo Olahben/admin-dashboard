@@ -192,10 +192,6 @@ body {
 
 }
 
-#updates {
-    grid-area: updates;
-    /*border: 1px solid red;*/
-}
 
 .projects {
     grid-area: content;
@@ -259,9 +255,20 @@ body {
     gap: 18px;
 }
 
-.profiles, .announcements {
+.announcements {
     width: 80%;
-    height: 40%;
+    height: 300px;
+}
+
+.trending {
+    width: 80%;
+    height: 330px;
+}
+
+#updates {
+    grid-area: updates;
+    /*border: 1px solid red;*/
+    
 }
 
 
