@@ -256,7 +256,7 @@ body {
 }
 
 .announcements, .profiles {
-    width: 80%;
+    width: 90%;
     height: 305px;
     background-color:rgb(248, 240, 240);
     border-radius: 7px;
@@ -266,6 +266,7 @@ body {
 
 #updates {
     grid-area: updates;
+    display: grid;
     /*border: 1px solid red;*/
     
 }
