@@ -255,15 +255,14 @@ body {
     gap: 18px;
 }
 
-.announcements {
+.announcements, .profiles {
     width: 80%;
-    height: 300px;
+    height: 305px;
+    background-color:rgb(248, 240, 240);
+    border-radius: 7px;
 }
 
-.trending {
-    width: 80%;
-    height: 330px;
-}
+
 
 #updates {
     grid-area: updates;
