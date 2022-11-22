@@ -251,5 +251,12 @@ body {
     font-weight: 600;
 }
 
+.card-img {
+    display: flex;
+    padding-top: 50px;
+    padding-right: 10px;
+    justify-content: flex-end;
+    gap: 18px;
+}
 
 
