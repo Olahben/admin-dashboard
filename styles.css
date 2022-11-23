@@ -308,15 +308,25 @@ body {
 .profiles {
     background-color: #27272a;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+   
     
 }
 
 .profile-project {
     font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .profile-project > p {
     font-weight: 200;
+    margin: 0px;
 }
 
 
