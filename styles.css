@@ -311,7 +311,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 8%;
     padding-left: 25px;
     padding-top: 10px;
    
@@ -321,19 +320,30 @@ body {
 .profile-project {
     font-family: 'Roboto';
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    
+    gap: 10px;
 }
 
 .profile-project > p {
     font-weight: 200;
     margin: 0px;
+    
 }
 
 .profile-project img {
     width: 30px;
     height: 38px;
+}
+
+.trending-profile {
+    display: inline;
+}
+
+.trending-content {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-family: 'Roboto';
 }
 
 
