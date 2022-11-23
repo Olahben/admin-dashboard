@@ -305,5 +305,19 @@ body {
     font-family: 'Roboto';
 }
 
+.profiles {
+    background-color: #27272a;
+    color: white;
+    
+}
+
+.profile-project {
+    font-family: 'Roboto';
+}
+
+.profile-project > p {
+    font-weight: 200;
+}
+
 
 
