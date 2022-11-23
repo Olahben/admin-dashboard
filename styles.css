@@ -311,7 +311,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10%;
+    gap: 8%;
+    padding-left: 25px;
+    padding-top: 10px;
    
     
 }
@@ -319,7 +321,7 @@ body {
 .profile-project {
     font-family: 'Roboto';
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     
 }
