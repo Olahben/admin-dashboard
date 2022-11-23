@@ -298,6 +298,12 @@ body {
     padding-bottom: 8px;
 }
 
+.trending-header {
+    margin-bottom: 5px;
+    margin-top: 8px;
+    font-size: 1.4em;
+    font-family: 'Roboto';
+}
 
 
 
